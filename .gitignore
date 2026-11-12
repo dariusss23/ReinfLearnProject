@@ -34,3 +34,8 @@ CybORG/Emulator/AWS/Config/awsconfig.ini
 
 .ipynb_checkpoints/
 .idea
+
+# Proiect facultate
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt

@@ -8,8 +8,9 @@ PyYAML==6.0.1
 gym==0.26.2
 gymnasium==0.28.1
 
-# RLlib
+# RLlib & Serialization
 ray[rllib]
+pyarrow>=15.0.0,<17.0.0
 lz4==4.3.3
 
 # Stable Baselines
@@ -36,7 +37,7 @@ tensorboardX==2.6.2.2
 pygame==2.5.2
 pygame-gui==0.6.9
 
-#Graph Neural Networks
+# Graph Neural Networks
 torch_geometric==2.5.0
 
 rich
